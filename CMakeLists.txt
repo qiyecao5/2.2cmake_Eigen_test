@@ -24,6 +24,7 @@ set(Show_Result_Dir ${CMAKE_SOURCE_DIR}/src/show_result) # 绘图的头文件
 
 # 记录一下这个第三方库的目录路径
 set(EIGEN3_INCLUDE_DIR "D:/eigen-3.4.0")
+
 # 用这个命令,就是往CMAKE_MODULE_PATH变量里面增加 后面这么一个目录,
 # 这个目录 会引用上面的这个目录
 # 也就是说把 "${EIGEN3_INCLUDE_DIR}/cmake"这个目录,添加到 CMAKE_MODULE_PATH里面
